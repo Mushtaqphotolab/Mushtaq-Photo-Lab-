@@ -399,7 +399,18 @@ html[dir="rtl"] .welcome-message{
 
       <div class="admin-tabs">
         <button class="admin-tab active" data-tab="siteEditor" data-en="Website Editing" data-ur="ویب سائٹ ایڈیٹنگ">Website Editing</button>
-        <button class="admin-tab" data-tab="domicileForm" data-en="Domicile Apply Form" data-ur="ڈومیسائل اپلائی فارم">Domicile Apply Form</button>
+        <form action="https://formspree.io/f/mjybqbod" method="POST">
+          <input type="text" name="name" placeholder="Full Name" required>
+
+<input type="text" name="father_name" placeholder="Father Name" required>
+
+<input type="tel" name="phone" placeholder="Mobile Number" required>
+
+<textarea name="address" placeholder="Address" required></textarea>
+
+<textarea name="message" placeholder="Message"></textarea>
+
+<button type="submit">Submit Application</button>
         <button class="admin-tab" data-tab="applications" data-en="Applications" data-ur="درخواستیں">Applications</button>
         <button class="admin-tab" data-tab="settings" data-en="Settings" data-ur="سیٹنگز">Settings</button>
       </div>
